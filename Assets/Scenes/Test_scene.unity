@@ -269,6 +269,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ebc152e48f258684dbdcdcdab91bc38c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerCam
+  playerControls: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
+  sensX: 0
+  sensY: 0
+  orientation: {fileID: 1849975338}
 --- !u!1 &349232099
 GameObject:
   m_ObjectHideFlags: 0
@@ -314,6 +318,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: df5f57966080bf54fbdcf778d643c2ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MoveCamera
+  cameraPosition: {fileID: 1186232760}
 --- !u!1 &363006734
 GameObject:
   m_ObjectHideFlags: 0
