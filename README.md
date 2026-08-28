@@ -8,7 +8,7 @@ https://docs.google.com/document/d/1X2ihU2YXbB1Il4od6LxQIhvSDe4iElEpPHyIdLP360w/
 
 ## Movement options: (move to wiki eventually)
 
-### Upgrades:
+### Seeker Upgrades:
 #### Sprint- 
 Enhance the max sprint stamina of the seeker to increase their ability to catch the hiders. Base speed of the seeker is slower than the hiders and requires clever pathing to catch them but stamina allows you to catch them more easily.
 #### Jump-
