@@ -20,4 +20,14 @@ Unlock the ability to wall run at the cost of stamina. Subsequent upgrades decre
 #### Tagging Range-
 Increases the distance at which a seeker is able to tag hiders. Base tag range is pretty short, but max range ideally makes up for gaps in mobility options for sneakier seekers
 
-### Items:
+### Items: Player can purchase up to three of any single use item
+#### Blinding Flash-
+Flashbang that disables hiders vision temporarily to make escape more difficult.
+#### Rocket-
+Item that allows the seeker to make a massive long-distance blast jump to cover lots of ground quickly, hard to control trajectory while mid air
+#### Dash-
+Straightforward dash to jump forward and close distance on a hider rapidly
+#### Sticky Trap-
+Gunk trap to be thrown at the ground that slows hiders significantly when stepped on
+#### Disguise-
+Allows the seeker to disguise as an NPC just like the hiders, attempting to sneak up on them before initiating a chase
