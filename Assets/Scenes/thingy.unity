@@ -526,10 +526,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 35b8cc70e728cb14bb26a4417cc95d7f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::FirstPersonController
-  walkSpeed: 3
-  sprintMultiplier: 2
-  jumpForce: 5
-  gravityMultiplier: 1
+  walkSpeed: 5
+  sprintMultiplier: 3
+  jumpForce: 8
+  gravityMultiplier: 2
   mouseSensitivity: 0.1
   upDownLookRange: 80
   characterController: {fileID: 1653314486}

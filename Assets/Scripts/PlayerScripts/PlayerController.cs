@@ -22,6 +22,7 @@ public class FirstPersonController : MonoBehaviour
     private Vector3 currentMovement;
     private float verticalRotation;
     private float CurrentSpeed => walkSpeed * (playerInputHandler.SprintTriggered ? sprintMultiplier : 1);
+    private bool doubleJump = true;
 
     void Start()
     {
@@ -45,12 +46,18 @@ public class FirstPersonController : MonoBehaviour
     private void HandleJumping() {
         if (characterController.isGrounded) {
             currentMovement.y = -0.5f;
+            doubleJump = true;
 
             if (playerInputHandler.JumpTriggered) {
                 currentMovement.y = jumpForce;
             }
+
         } else {
             currentMovement.y += Physics.gravity.y * gravityMultiplier * Time.deltaTime;
+            if (playerInputHandler.JumpTriggered && doubleJump) {
+                currentMovement.y = jumpForce;
+                doubleJump = false;
+            }
         }
     }
 
