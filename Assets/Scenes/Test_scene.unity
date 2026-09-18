@@ -393,6 +393,7 @@ MonoBehaviour:
   sprintSpeed: 1
   mouseXSens: 1
   mouseYSens: 1
+  upDownLookRange: 85
   playerCam: {fileID: 895297310}
   rb: {fileID: 404963838}
   pInputHandler: {fileID: 1902802660}
